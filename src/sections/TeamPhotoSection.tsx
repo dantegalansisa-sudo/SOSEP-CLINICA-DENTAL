@@ -23,8 +23,6 @@ export default function TeamPhotoSection() {
               width: '100%',
               height: 'auto',
               display: 'block',
-              objectFit: 'cover',
-              maxHeight: '600px',
             }}
           />
           <div
