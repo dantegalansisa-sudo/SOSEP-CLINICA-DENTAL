@@ -25,7 +25,6 @@ import MapSection from './sections/MapSection';
 import FooterSection from './sections/FooterSection';
 import PromoSection from './sections/PromoSection';
 import PatientsSection from './sections/PatientsSection';
-import TeamPhotoSection from './sections/TeamPhotoSection';
 import MagneticButton from './components/MagneticButton';
 import LanguageToggle from './components/LanguageToggle';
 import ServicePage from './pages/ServicePage';
@@ -178,7 +177,6 @@ function HomePage() {
         <TransformationSection />
         <DirectorSection />
         <TeamSection />
-        <TeamPhotoSection />
         <TechnologySection />
         <VideoSection />
         <StatsSection />
