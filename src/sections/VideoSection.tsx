@@ -5,17 +5,17 @@ const highlights = [
   {
     icon: '🏥',
     title: 'Instalaciones Modernas',
-    desc: 'Más de 500m² diseñados para tu comodidad',
+    desc: 'Espacios diseñados para tu comodidad',
   },
   {
     icon: '⚡',
     title: 'Tecnología de Punta',
-    desc: 'Equipos de última generación importados',
+    desc: 'Equipos de última generación',
   },
   {
-    icon: '🧘',
-    title: 'Ambiente Relajante',
-    desc: 'Espacios pensados para eliminar la ansiedad dental',
+    icon: '😁',
+    title: 'Diseño de Sonrisa',
+    desc: 'Transformaciones que cambian vidas',
   },
 ];
 
@@ -43,7 +43,7 @@ export default function VideoSection() {
         </motion.span>
 
         <RevealText tag="h2" className="section-title">
-          TOUR VIRTUAL
+          NUESTRO TRABAJO
         </RevealText>
 
         <motion.p
@@ -53,36 +53,38 @@ export default function VideoSection() {
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
         >
-          Descubre nuestras instalaciones y conoce al equipo que transformará tu sonrisa.
+          Mira de cerca cómo transformamos sonrisas en Lalane Dental Team.
         </motion.p>
 
-        {/* Video placeholder */}
+        {/* Real clinic video — reel format (9:16) */}
         <motion.div
           className="vtour__video"
           initial={{ opacity: 0, scale: 0.96 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ delay: 0.25, duration: 0.7, ease: [0.76, 0, 0.24, 1] }}
+          style={{
+            maxWidth: '400px',
+            margin: '0 auto',
+            aspectRatio: '9 / 16',
+            borderRadius: '20px',
+            overflow: 'hidden',
+          }}
         >
-          <img
-            className="vtour__video-img"
-            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1200&q=80"
-            alt="Tour virtual de la clínica dental"
-            loading="lazy"
-          />
-          <div className="vtour__video-overlay" />
-          <button className="vtour__play" aria-label="Reproducir video">
-            <span className="vtour__play-ring" />
-            <svg
-              className="vtour__play-icon"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              width="28"
-              height="28"
-            >
-              <polygon points="6,3 20,12 6,21" />
-            </svg>
-          </button>
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              display: 'block',
+            }}
+          >
+            <source src="/imagenes/lalane/video-clinica.mp4" type="video/mp4" />
+          </video>
         </motion.div>
 
         {/* Highlight cards */}
