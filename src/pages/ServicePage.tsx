@@ -96,15 +96,15 @@ export default function ServicePage() {
                 <h3 className="sp__cta-title">¿Te interesa este tratamiento?</h3>
                 <p className="sp__cta-desc">Agenda tu consulta de evaluación y recibe un plan personalizado.</p>
                 <a
-                  href={`https://wa.me/18295633541?text=${whatsappMsg}`}
+                  href={`https://wa.me/18090000000?text=${whatsappMsg}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="sp__cta-btn"
                 >
                   Consultar por WhatsApp →
                 </a>
-                <a href="tel:+18096873744" className="sp__cta-phone">
-                  O llámanos: (809) 687-3744
+                <a href="tel:+18090000000" className="sp__cta-phone">
+                  O llámanos: Próximamente
                 </a>
               </div>
 

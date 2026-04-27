@@ -11,8 +11,8 @@ import HeroSection from './sections/HeroSection';
 import ManifestoSection from './sections/ManifestoSection';
 import ServicesSection from './sections/ServicesSection';
 import TransformationSection from './sections/TransformationSection';
-import DirectorSection from './sections/DirectorSection';
-import TeamSection from './sections/TeamSection';
+// DirectorSection removed — no CEO info available
+// TeamSection removed — solo practitioner
 import TechnologySection from './sections/TechnologySection';
 import StatsSection from './sections/StatsSection';
 import TestimonialsSection from './sections/TestimonialsSection';
@@ -32,7 +32,7 @@ import BlogPage from './pages/BlogPage';
 import EmergencySection from './sections/EmergencySection';
 import FinancingSection from './sections/FinancingSection';
 import CertificationsSection from './sections/CertificationsSection';
-import VideoSection from './sections/VideoSection';
+// VideoSection removed — no video available
 import { useLang } from './i18n/LanguageContext';
 
 /* ═══════ NAVBAR ═══════ */
@@ -84,8 +84,7 @@ function Navbar() {
     <>
       <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
         <a href="/" className="navbar__logo">
-          <span className="navbar__logo-text">Lalane</span>
-          <span className="navbar__logo-accent">Dental</span>
+          <img src="/imagenes/sosep/logo.png" alt="SOSEP Clínica Dental" className="navbar__logo-img" style={{ height: '50px', width: 'auto' }} />
         </a>
 
         <ul className="navbar__links">
@@ -173,14 +172,14 @@ function HomePage() {
         <PromoSection />
         <ManifestoSection />
         <ServicesSection />
-        <DirectorSection />
-        <TeamSection />
+        {/* DirectorSection removed — no CEO info available */}
+        {/* TeamSection removed — solo practitioner */}
         <TransformationSection />
         <PatientsSection />
         <TestimonialsSection />
         <GallerySection />
         <TechnologySection />
-        <VideoSection />
+        {/* VideoSection removed — no video available */}
         <StatsSection />
         <CertificationsSection />
         <InsuranceSection />

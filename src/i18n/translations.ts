@@ -10,7 +10,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.book': 'Reservar Cita',
 
     // Hero
-    'hero.tagline': 'Excelencia Dental Familiar',
+    'hero.tagline': 'Soluciones Odontológicas Especializadas',
     'hero.title1': 'TU',
     'hero.title2': 'SONRISA',
     'hero.title3': 'PERFECTA',
@@ -89,8 +89,8 @@ export const translations: Record<Lang, Record<string, string>> = {
     'booking.sent': '¡Enviado! Revisa WhatsApp',
 
     // Footer
-    'footer.tagline': 'Excelencia Dental Familiar',
-    'footer.rights': '© 2026 Lalane Dental Team. Todos los derechos reservados.',
+    'footer.tagline': '#ExperienciaSOSEP',
+    'footer.rights': '© 2026 SOSEP Clínica Dental. Todos los derechos reservados.',
     'footer.credit': 'Diseñado por',
     'footer.privacy': 'Política de Privacidad',
     'footer.legal': 'Aviso Legal',
@@ -112,7 +112,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.book': 'Book Appointment',
 
     // Hero
-    'hero.tagline': 'Family Dental Excellence',
+    'hero.tagline': 'Specialized Dental Solutions',
     'hero.title1': 'YOUR',
     'hero.title2': 'SMILE',
     'hero.title3': 'PERFECTED',
@@ -191,8 +191,8 @@ export const translations: Record<Lang, Record<string, string>> = {
     'booking.sent': 'Sent! Check WhatsApp',
 
     // Footer
-    'footer.tagline': 'Family Dental Excellence',
-    'footer.rights': '© 2026 Lalane Dental Team. All rights reserved.',
+    'footer.tagline': '#SOSEPExperience',
+    'footer.rights': '© 2026 SOSEP Clínica Dental. All rights reserved.',
     'footer.credit': 'Designed by',
     'footer.privacy': 'Privacy Policy',
     'footer.legal': 'Legal Notice',
